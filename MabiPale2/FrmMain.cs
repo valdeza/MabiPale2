@@ -358,6 +358,8 @@ namespace MabiPale2
 			if (fileNames.Length == 0)
 				return;
 
+			LblCurrentFileName.Text = Path.GetFileName(fileNames[0]);
+
 			LoadFile(fileNames[0]);
 		}
 
